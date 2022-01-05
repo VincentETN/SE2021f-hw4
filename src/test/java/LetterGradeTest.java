@@ -1,6 +1,10 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class LetterGradeTest {
     // 5(a) Equivalence partitioning
     // 90 <= score <= 100
@@ -99,5 +103,21 @@ public class LetterGradeTest {
     @Test
     public void upperBoundOfLowerThanZero() {
         assertEquals('X', LetterGrade.convertToGrade(-1));
+    }
+
+    // test manually
+    public static void main(String[] args) {
+        System.out.print("Enter the score = ");
+        try {
+            InputStreamReader isr = new InputStreamReader(System.in);
+            BufferedReader br = new BufferedReader(isr);
+            int score = Integer.parseInt(br.readLine());
+            char grade = LetterGrade.convertToGrade(score);
+            System.out.println("The grade of " + score + " is " + grade);
+        } catch (NumberFormatException ex) {
+            System.out.println("Not an integer!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

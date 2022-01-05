@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LetterGradeTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2022-01-05T12:45:06" hostname="LAPTOP-BU4IBN4" time="0.034">
+  <properties/>
+  <testcase name="betweenNinetyAndAHundredTest()" classname="LetterGradeTest" time="0.02"/>
+  <testcase name="betweenZeroAndSixtyTest()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="lowerBoundOfGreaterThanAHundred()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="greaterThanAHundredTest()" classname="LetterGradeTest" time="0.001"/>
+  <testcase name="upperBoundOfLowerThanZero()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="lowerBoundOfGradeA()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="lowerBoundOfGradeB()" classname="LetterGradeTest" time="0.001"/>
+  <testcase name="lowerBoundOfGradeC()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="lowerBoundOfGradeD()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="lowerBoundOfGradeF()" classname="LetterGradeTest" time="0.001"/>
+  <testcase name="upperBoundOfGradeA()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="upperBoundOfGradeB()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="upperBoundOfGradeC()" classname="LetterGradeTest" time="0.001"/>
+  <testcase name="upperBoundOfGradeD()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="upperBoundOfGradeF()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="betweenSixtyAndSeventyTest()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="betweenSeventyAndEightyTest()" classname="LetterGradeTest" time="0.001"/>
+  <testcase name="betweenEightyAndNinetyTest()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="lowerThanZeroTest()" classname="LetterGradeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
