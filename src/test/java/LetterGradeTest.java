@@ -2,42 +2,42 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class LetterGradeTest {
-//    // 5(a) Equivalence partitioning
-//    // 90 <= score <= 100
-//    @Test
-//    public void betweenNinetyAndAHundredTest() {
-//        assertEquals('A', LetterGrade.convertToGrade(95));
-//    }
-//    // 80 <= score < 90
-//    @Test
-//    public void betweenEightyAndNinetyTest() {
-//        assertEquals('B', LetterGrade.convertToGrade(85));
-//    }
-//    // 70 <= score < 80
-//    @Test
-//    public void betweenSeventyAndEightyTest() {
-//        assertEquals('C', LetterGrade.convertToGrade(75));
-//    }
-//    // 60 <= score < 70
-//    @Test
-//    public void betweenSixtyAndSeventyTest() {
-//        assertEquals('D', LetterGrade.convertToGrade(65));
-//    }
-//    // 0 <= score < 60
-//    @Test
-//    public void betweenZeroAndSixtyTest() {
-//        assertEquals('F', LetterGrade.convertToGrade(30));
-//    }
-//    // score > 100
-//    @Test
-//    public void greaterThanAHundredTest() {
-//        assertEquals('X', LetterGrade.convertToGrade(110));
-//    }
-//    // score < 0
-//    @Test
-//    public void lowerThanZeroTest() {
-//        assertEquals('X', LetterGrade.convertToGrade(-10));
-//    }
+    // 5(a) Equivalence partitioning
+    // 90 <= score <= 100
+    @Test
+    public void betweenNinetyAndAHundredTest() {
+        assertEquals('A', LetterGrade.convertToGrade(95));
+    }
+    // 80 <= score < 90
+    @Test
+    public void betweenEightyAndNinetyTest() {
+        assertEquals('B', LetterGrade.convertToGrade(85));
+    }
+    // 70 <= score < 80
+    @Test
+    public void betweenSeventyAndEightyTest() {
+        assertEquals('C', LetterGrade.convertToGrade(75));
+    }
+    // 60 <= score < 70
+    @Test
+    public void betweenSixtyAndSeventyTest() {
+        assertEquals('D', LetterGrade.convertToGrade(65));
+    }
+    // 0 <= score < 60
+    @Test
+    public void betweenZeroAndSixtyTest() {
+        assertEquals('F', LetterGrade.convertToGrade(30));
+    }
+    // score > 100
+    @Test
+    public void greaterThanAHundredTest() {
+        assertEquals('X', LetterGrade.convertToGrade(110));
+    }
+    // score < 0
+    @Test
+    public void lowerThanZeroTest() {
+        assertEquals('X', LetterGrade.convertToGrade(-10));
+    }
 
     // 5(b) boundary value analysis
     // score = 101
