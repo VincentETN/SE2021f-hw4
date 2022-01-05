@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LetterGradeTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-01-05T11:35:24" hostname="LAPTOP-BU4IBN4" time="0.029">
+  <properties/>
+  <testcase name="lowerBoundOfGreaterThanAHundred()" classname="LetterGradeTest" time="0.02"/>
+  <testcase name="upperBoundOfLowerThanZero()" classname="LetterGradeTest" time="0.001"/>
+  <testcase name="lowerBoundOfGradeA()" classname="LetterGradeTest" time="0.001"/>
+  <testcase name="lowerBoundOfGradeB()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="lowerBoundOfGradeC()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="lowerBoundOfGradeD()" classname="LetterGradeTest" time="0.001"/>
+  <testcase name="lowerBoundOfGradeF()" classname="LetterGradeTest" time="0.001"/>
+  <testcase name="upperBoundOfGradeA()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="upperBoundOfGradeB()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="upperBoundOfGradeC()" classname="LetterGradeTest" time="0.0"/>
+  <testcase name="upperBoundOfGradeD()" classname="LetterGradeTest" time="0.001"/>
+  <testcase name="upperBoundOfGradeF()" classname="LetterGradeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
